@@ -1,0 +1,22 @@
+body
+{
+	background-color: #333333;
+}
+
+#carre
+{
+	margin-left: 300px;
+	margin-top: 20px;
+	border-radius: 10px;
+	box-shadow: 6px 6px 6px black;
+	height: 130px;
+	width: 1000px;
+    background: #909090;
+}
+
+#day-42
+{
+	margin-top: 15px;
+	align: left;
+	height: 100px;
+}
