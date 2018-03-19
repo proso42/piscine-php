@@ -1,26 +1,46 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8" />
-	<title>Day of 42</title>
-	<link rel="stylesheet" type="text/css" href="doft.css">
+	<meta charset="utf-8"/>
+	<title>Day of the 42</title>
+	<link rel="stylesheet" href="doft.css"/>
 </head>
 <body>
-	<div id="rectangle1">
-		<img id="day-42" src="resources/day_of_the_42.png"/>
-		<img id="loupe" src="resources/loupe.png"/>
-		<img id="close" src="resources/close.gif"/>
-		<img id="reload" src="resources/reload.png"/>
+	<div align="center">
+		<div class="top_rect">
+			<img src="file:///Users/proso/Desktop/github_proso/piscine-php/J00/ex02/resources/day_of_the_42.png" alt="day_of_the_42 "title="day_of_the_42" class="day42"/>
+			<a href="http://www.disney.com" ><img src="file:///Users/proso/Desktop/github_proso/piscine-php/J00/ex02/resources/reload.png" alt="Recommencer au debut" title="Recommencer au debut" class="reload"></a>
+			<a href="http://www.relaischateaux.com"><img src="file:///Users/proso/Desktop/github_proso/piscine-php/J00/ex02/resources/close.gif" alt="Déconnecter" title="Déconnecter" class="close"/></a>
+			<img src="file:///Users/proso/Desktop/github_proso/piscine-php/J00/ex02/resources/loupe.png" alt="Inspecter" title="Inspecter" class="loupe"/>
+		</div>
 	</div>
-	<div id="rectangle2">
-		<img id="arrow" src="resources/arrow.png"/>
-		<img id="main" src="resources/main.png"/>
-		<img id="oeil" src="resources/oeil.png"/>
-		<img id="outil" src="resources/outil.png"/>
-		<img id="chat" src="resources/chat-icon.png"/>
+	<div align="center">
+		<div class="left_rect">
+			<img src="file:///Users/proso/Desktop/github_proso/piscine-php/J00/ex02/resources/arrow.png" arrow="Avancer" title="Avancer" class="arrow" />
+			<img src="file:///Users/proso/Desktop/github_proso/piscine-php/J00/ex02/resources/main.png" alt="Prendre" title="Prendre" class="hand"/>
+			<img src="file:///Users/proso/Desktop/github_proso/piscine-php/J00/ex02/resources/oeil.png" alt="Regarder" title="Regarder" class="eye"/>
+			<img src="file:///Users/proso/Desktop/github_proso/piscine-php/J00/ex02/resources/outil.png" alt="Utiliser" title="Utiliser" class="tools"/>
+			<img src="file:///Users/proso/Desktop/github_proso/piscine-php/J00/ex02/resources/chat-icon.png" alt="Parler" title="Parler" class="chat"/>
+		</div>
+		<div class="center_rect">
+			<img src="file:///Users/proso/Desktop/github_proso/piscine-php/J00/ex02/resources/cluster.jpg" alt="La jungle" title="La jungle" class="cluster" usemap="cluster_map"/>
+		</div>
+		<div class="right_rect">
+			<img src="file:///Users/proso/Desktop/github_proso/piscine-php/J00/ex02/resources/book.png" alt="Notes" title="Notes" class="book"/>
+			<img src="file:///Users/proso/Desktop/github_proso/piscine-php/J00/ex02/resources/towel.png" alt="Serviette de main" title="Serviette de main" class="towel"/>
+			<div class="bricks">
+			</div>
+		</div>
+		<div class="green_rect">
+			<p class="text_box">Vous <span class="enter">entrez</span> alors dans une grande piece remplie</br><span class="pc">d'ordinateu</span>rs...
+			</br><span style="font-style:italic">- Bonjour, vous êtes nouveau ici ? </span></p>
+			<input class="text-zone" />
+			<input class="button" type="button" value="Repondre" />
+		</div>
 	</div>
-	<div id="rectangle3">
-		<img id="cluster" src="resources/cluster.jpg"/>
-	</div>
+	<map name="cluster_map">
+		<area shape="rect" coords="350,325,450,550" href="http://www.ikea.com" alt="ikea"/>
+		<area shape="rect" coords="810,325,1000,480" href="http://www.apple.com" alt="apple" />
+	</map>
 </body>
 </html>
