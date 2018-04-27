@@ -1,0 +1,289 @@
+html
+{
+	height:100%;
+}
+body
+{
+	font-family: "helvetica";
+	background-color:#f02892;
+	margin:0;
+	position:relative;
+	min-height:100%;
+}
+header
+{
+	position:fixed;
+	width:100%;
+	background-color:#fef67a;
+	color:chocolate;
+	padding:10px;
+	padding-bottom:0;
+	box-shadow: 0px 2px 20px maroon;
+}
+footer
+{
+	position:absolute;
+	bottom:0;
+	width:100%;
+	background-color:#fef67a;
+	color:chocolate;
+	height:100px;
+	box-shadow: -2px -2px 20px maroon;
+	padding-top:10px;
+	font-family:monospace;
+	text-align:right;
+}
+
+footer div
+{
+	padding:10px;
+}
+a
+{
+	text-decoration:none;
+}
+header h1
+{
+	display:inline-block;
+	width : 200px;
+	color:chocolate;
+}
+
+header div#right
+{
+	float:right;
+}
+
+header div#right div, header div#right a
+{
+	color:chocolate;
+	margin: 10px;
+	display: inline-block;
+}
+
+header div#right a#panier
+{
+	margin-right: 50px;
+}
+
+nav
+{
+	margin-left:auto;
+	color:chocolate;
+	padding-left:10px;
+	padding-right:10px;
+	width:100%;
+
+}
+
+nav div.menu
+{
+	padding:5px;
+	width:200px;
+	border-top:1px solid grey;
+}
+
+nav div.menu div.submenuhide
+{
+	height:0;
+}
+
+nav div.menu div.submenu
+{
+	transition: max-height 0.2s;
+	background-color:#fef67a;
+	position:relative;
+	width:210px;
+	right:5px;
+	top:5px;
+	max-height:0px;
+	overflow:hidden;
+}
+
+a.subelem
+{
+	color:chocolate;
+	display:block;
+	padding:5px;
+	width:200px;
+	text-decoration:none;
+}
+
+nav div.menu:hover
+{
+	border-top:1px solid dimgrey;
+}
+
+nav div.menu:hover div.submenu
+{
+	max-height:500px;
+}
+
+nav a.subelem:hover
+{
+	background-color:sienna;
+	color:white;
+}
+
+div#image
+{
+	text-align:center;
+	width:60%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+div#page
+{
+	border-radius:20px;
+	background-color:orchid;
+	padding:20px;
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	color:maroon;
+	overflow:hidden;
+	margin-bottom:50px;
+}
+div#content a.elem
+{
+	min-width:200px;
+	display:inline-block;
+	border:	1px solid black;
+	margin:10px;
+	text-align:center;
+	background-color:white;
+	color:maroon;
+}
+
+div#content a.elem div
+{
+	margin:5px;
+}
+
+.Sign_rect
+{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 150px;
+	border-radius: 10px;
+	background-color: #fef67a;
+	width: 600px;
+	box-shadow: 5px 5px 10px maroon;
+	padding:10px;
+}
+
+.Ident
+{
+	font-size: 25px;
+	color:maroon;
+}
+
+.decal
+{
+	margin-left: 15%;
+}
+
+.but-submit
+{
+	float;
+	margin-top: 80px;
+	margin-left:250px;
+}
+
+.ret_index
+{
+	width: 300px;
+	margin-left: 44%;
+	text-align: center;
+}
+
+.ret_compte
+{
+	width: 200px;
+	margin-top: 10%;
+	margin-left: 50%;
+}
+
+div#compte
+{
+	margin-top: 20px;
+	margin-left: 5px;
+	color: black;
+}
+
+img#item
+{
+	float:left;
+	margin:10px;
+}
+
+div#page p
+{
+	padding-left: 10px;
+}
+
+a#button-panier
+{
+	padding:20px;
+	background-color:chocolate;
+	color:white;
+	font-weight:bold;
+}
+
+a#button-panier:hover
+{
+	background-color:sienna;
+}
+
+div.panier-elem
+{
+	padding:10px;
+	background-color:lavender;
+	border-radius:25px;
+	margin:10px;
+	overflow:hidden;
+}
+
+div.panier-elem img
+{
+	float:left;
+	max-height:200px;
+	max-width:50%;
+	margin:10px;
+}
+
+.green_block
+{
+	background-color: #90EE90;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 0px 2px 20px black;
+	margin-top: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: black;
+	font-size: 30px;
+}
+
+.red_block
+{
+	background-color: #800000;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 0px 2px 20px black;
+	margin-top: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: #FFF5EE;
+	font-size: 30px;
+}
+
+table
+{
+	border-collapse: collapse;
+}
+th
+{
+	border: 1px solid black;
+}

@@ -1,0 +1,2 @@
+Cette classe contient trois varaibles publics red, green et blue ainsi qu'une variable static verbose.
+blablabla
